@@ -1,0 +1,85 @@
+# Text files
+* text=auto
+
+# Source files
+*.java text diff=java
+*.js text
+*.jsx text
+*.ts text
+*.tsx text
+*.html text diff=html
+*.css text
+*.scss text
+*.less text
+*.xml text
+*.json text
+*.md text
+*.yml text
+*.yaml text
+*.txt text
+*.sql text
+*.sh text eol=lf
+*.bat text eol=crlf
+
+# Configuration files
+*.properties text
+*.conf text
+*.config text
+*.ini text
+*.toml text
+
+# Documentation
+*.txt text
+*.md text
+*.adoc text
+*.textile text
+*.mustache text
+*.csv text
+*.tab text
+*.tsv text
+*.sql text
+
+# Graphics
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.tif binary
+*.tiff binary
+*.ico binary
+*.svg text
+*.eps binary
+
+# Archives
+*.7z binary
+*.gz binary
+*.tar binary
+*.tgz binary
+*.zip binary
+*.jar binary
+*.war binary
+*.ear binary
+
+# Fonts
+*.ttf binary
+*.eot binary
+*.otf binary
+*.woff binary
+*.woff2 binary
+
+# Executables
+*.exe binary
+*.pyc binary
+
+# RC files (like .babelrc or .eslintrc)
+*.*rc text
+
+# Ignore files (like .gitignore or .npmignore)
+*.*ignore text
+
+# Docker
+Dockerfile text
+docker-compose*.yml text
+
+# Other
+*.log text
