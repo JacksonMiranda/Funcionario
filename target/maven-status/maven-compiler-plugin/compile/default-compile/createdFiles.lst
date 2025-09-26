@@ -1,0 +1,6 @@
+com/example/myapp/controller/FuncionarioController.class
+com/example/myapp/model/Funcionario.class
+com/example/myapp/service/FuncionarioService.class
+com/example/myapp/model/Pessoa.class
+com/example/myapp/MySpringBootApplication.class
+com/example/myapp/repository/FuncionarioRepository.class
