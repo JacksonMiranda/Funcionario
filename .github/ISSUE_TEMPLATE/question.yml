@@ -1,0 +1,84 @@
+name: Question
+description: Ask a question about the project
+title: "[Question]: "
+labels: ["question"]
+assignees:
+  - JacksonMiranda
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your question! Please check our [documentation](https://github.com/JacksonMiranda/Funcionario/blob/main/README.md) and [existing issues](https://github.com/JacksonMiranda/Funcionario/issues) first.
+  - type: textarea
+    id: question
+    attributes:
+      label: What is your question?
+      description: Please provide as much detail as possible
+      placeholder: I would like to know...
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add any other context about your question here, including what you've already tried
+      placeholder: I have already tried...
+  - type: dropdown
+    id: question-type
+    attributes:
+      label: Question Type
+      description: What type of question is this?
+      options:
+        - Getting Started / Setup
+        - How to Use Feature
+        - Best Practices
+        - Architecture / Design
+        - Performance
+        - Security
+        - API Usage
+        - Configuration
+        - Troubleshooting
+        - Contributing
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: Urgency
+      description: How urgent is this question?
+      options:
+        - Low - Just curious
+        - Medium - Would help with my project
+        - High - Blocking my progress
+      default: 0
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment Details (if relevant)
+      description: Please provide environment details if your question is related to setup or troubleshooting
+      placeholder: |
+        - OS: 
+        - Java Version: 
+        - Maven Version: 
+        - Browser: 
+        - Any other relevant details
+  - type: checkboxes
+    id: documentation-check
+    attributes:
+      label: Documentation Check
+      description: Have you checked the existing documentation?
+      options:
+        - label: I have read the [README](https://github.com/JacksonMiranda/Funcionario/blob/main/README.md)
+        - label: I have checked [existing issues](https://github.com/JacksonMiranda/Funcionario/issues)
+        - label: I have reviewed the [Contributing Guide](https://github.com/JacksonMiranda/Funcionario/blob/main/CONTRIBUTING.md)
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/JacksonMiranda/Funcionario/blob/main/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true

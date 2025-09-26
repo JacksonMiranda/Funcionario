@@ -1,0 +1,20 @@
+# Global code owners
+* @JacksonMiranda
+
+# Java source code
+src/main/java/ @JacksonMiranda
+src/test/java/ @JacksonMiranda
+
+# Configuration files
+pom.xml @JacksonMiranda
+*.properties @JacksonMiranda
+
+# Frontend files
+src/main/resources/static/ @JacksonMiranda
+
+# Documentation
+*.md @JacksonMiranda
+docs/ @JacksonMiranda
+
+# CI/CD
+.github/ @JacksonMiranda
